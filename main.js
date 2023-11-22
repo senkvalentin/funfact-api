@@ -6,15 +6,7 @@ factField.innerHTML = 'Want to see a fun fact? Click on the button below to star
 
 
 var limit = 1;
-
-
-let url = 'https://facts-by-api-ninjas.p.rapidapi.com/v1/facts?limit=1';
-const options = {
-	method: 'GET',
-	headers: {'X-Api-Key': '---insert your key to start---'},
-    contentType: 'application/json'
-};
-
+var apiKey = '--enter-your-key-here--';
 
 
 generate.onclick = function () {
