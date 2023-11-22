@@ -1,5 +1,6 @@
 body{
-    background-color: #518C66;
+    padding-bottom: 2em;
+    background-color: #A0C4F2 !important;
     height: 100%;
 }
 .box{
@@ -7,7 +8,19 @@ body{
     font-size: 5em;
     padding: 1em;
     padding-top: 1em;
-    padding-bottom: 2em;
-    background-color: #A0C4F2;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #518C66 !important;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+.generateBtn {
+    font-size: 3em;
+    padding: .2em;
+}
+
+.generateBtn:hover {
 }
