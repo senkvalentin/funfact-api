@@ -6,14 +6,12 @@ factField.innerHTML = 'Want to see a fun fact? Click on the button below to star
 
 
 var limit = 1;
-var apiKey = '---insert your key to start---';
-
 
 
 let url = 'https://facts-by-api-ninjas.p.rapidapi.com/v1/facts?limit=1';
 const options = {
 	method: 'GET',
-	headers: {'X-Api-Key': 'fNCqYl7drebTb/amokr7Ag==EYcTK0bKh1HUpBMS'},
+	headers: {'X-Api-Key': '---insert your key to start---'},
     contentType: 'application/json'
 };
 
